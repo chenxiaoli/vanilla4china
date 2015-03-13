@@ -1734,7 +1734,7 @@ class Gdn_Controller extends Gdn_Pluggable {
             $Cdns = array();
             if (Gdn::Request()->Scheme() != 'https' && !C('Garden.Cdns.Disable', FALSE)) {
                $Cdns = array(
-                  'jquery.js' => 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+                  'jquery.js' => '/js/library/jquery.1.10.2.min.js'
                   );
             }
 

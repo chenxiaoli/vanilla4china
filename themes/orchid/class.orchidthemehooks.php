@@ -2,7 +2,7 @@
 
 class OrchidThemeHooks extends Gdn_Plugin {	
 	public function Base_AfterJsCdns_Handler($Sender,$Args){
-		$Args['Cdns'] = array('jquery.js' => 'http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js');
+		$Args['Cdns'] = array('jquery.js' => '/js/library/jquery.1.10.2.min.js');
 	}
 
 	public function HeadModule_BeforeToString_Handler($Sender,$Args)

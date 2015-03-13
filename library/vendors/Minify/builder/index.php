@@ -117,7 +117,7 @@ href="http://code.google.com/p/minify/source/browse/trunk/min/builder/index.php"
 source</a></small></p>
 
 <script type="text/javascript" 
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+src="/js/library/jquery.1.2.6.min.js"></script>
 
 <script type="text/javascript">
 $(function () {
